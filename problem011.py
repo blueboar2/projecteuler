@@ -11,7 +11,6 @@ for i in range(20):
 
 max = 0
 
-print(matrix)
 for i in range(20):
     for j in range(17):
         z = matrix[i][j] * matrix[i][j+1] * matrix[i][j+2] * matrix[i][j+3]
